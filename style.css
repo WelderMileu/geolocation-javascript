@@ -14,7 +14,18 @@ body {
 	width: 100%;
 }
 
+.container .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.location {
+	margin-top: 20px;
+}
+
 #map {
 	width: 400px;
 	height: 400px;
+	margin-top: 20px;
 }
