@@ -5,7 +5,7 @@
 
 	function setPosition() {
 
-		navigator.geolocation.getCurrentPosition(function(e) {
+		navigator.geolocation.watchPosition(function(e) {
 			const position = {
 				lat: e.coords.latitude,
 				lng: e.coords.longitude
