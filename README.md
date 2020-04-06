@@ -4,4 +4,4 @@
 
 ### OBS
 
-- A Chave do *google maps* não esta funcionando pois não concluir o meu cadastro gratuito no google *maps development*.
+- A Chave do *google maps* não esta funcionando pois não concluir o meu cadastro gratuito na plataforma do *google maps development*.
