@@ -17,16 +17,18 @@
 		<script type='text/javascript' src="main.js"></script>
 		<script type="text/javascript">
 			function initMap() {
+				navigator.geolocation.getCurrentPosition(function(e){
 
-				const options = {
-					center : {
-						lat: -19.8975,
-						lng: -43.9625
-					},
-					zoom: 13
-				}
+					const options = {
+						center : {
+							lat: e.coords.latitude,
+							lng: e.coords.longitude
+						},
+						zoom: 13
+					}
 
-				const map = new google.maps.Map(document.getElementById('map'), options)
+					const map = new google.maps.Map(document.getElementById('map'), options)
+				})
 			}
 			
 		</script>
